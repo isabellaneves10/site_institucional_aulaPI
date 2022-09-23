@@ -4,6 +4,7 @@ body {
     background-color: black;
 }
 
+
 .header {
     color: #32b9cd;
     border-bottom: solid 3px #32b9cd;
@@ -22,6 +23,8 @@ body {
     justify-content: space-between;
 }
 
+
+
 .navbar {
     display: flex;
     width: 600px;
@@ -31,7 +34,19 @@ body {
     align-items: center;
 }
 
+.header ul #aqui{
+    font-weight: 1000;
+    color: white;
+}
+
+
+a {
+    color: #e3b062;
+    text-decoration: none;
+}
+
 /*Banner*/
+
 
 .banner {
     /* border: solid 3px pink; */
@@ -87,16 +102,21 @@ body {
     align-items: center;
 }
 
-.social p {text-align: center;}
+.social p {
+    text-align: center;
+}
 
 
-.footer{
+.footer {
     background-color: #32b9cd;
-    height: 150px ;
+    height: 150px;
     display: flex;
-    color:white;
-    
-    text-align: center;}
- 
-.footer .container{display: flex;
-    justify-content: center;}    
+    color: white;
+
+    text-align: center;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+}
