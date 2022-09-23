@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="Estilos.css">
-    <link rel="stylesheet" href="formulario_estilo.css">
+    <link rel="stylesheet" href="cadastro_estilo.css">
+
 </head>
 
 <body>
@@ -19,8 +20,8 @@
                 </li>
                 <li>Simulador</li>
                 <li>|</li>
-                <li id="aqui"><a href="login.html">Login</a></li>
-                <li><a href="cadastro.html">Cadastro</a></li>
+                <li > <a href="login.html">Login</a></li>
+                <li  id="aqui"><a href="cadastro.html">Cadastro</a> </li>
             </ul>
         </div>
     </div>
@@ -33,13 +34,19 @@
 
                 <div class="formulario">
 
-                    <span> E-mail:</span>
-                    <input id="email_input" placeholder="Seu E-mail" type="email">
+                    <span> Nome:</span>
+            <input id="nome_input" placeholder="Seu nome" type="text">
+        
+            <span> E-mail:</span>
+            <input id="email_input" placeholder="meuemail@provedor.com" type="email">
+        
+            <span>Senha:</span>
+            <input id="senha_input" placeholder="******" type="password">
+        
+            <span>Confirmação da Senha:</span>
+            <input id="confirmacao_input" placeholder="******" type="password">
 
-                    <span>Senha:</span>
-                    <input id="senha_input" placeholder="******" type="password">
-
-                    <button>Entrar</button>
+            <button>Cadastrar</button>
 
                 </div>
             </div>
