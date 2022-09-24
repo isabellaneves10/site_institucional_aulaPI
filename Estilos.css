@@ -5,8 +5,12 @@ body {
 }
 
 
-.header {
+.header h1 {
     color: #32b9cd;
+}
+
+.header {
+
     border-bottom: solid 3px #32b9cd;
     /* border: solid 3px green; */
 }
@@ -23,8 +27,6 @@ body {
     justify-content: space-between;
 }
 
-
-
 .navbar {
     display: flex;
     width: 600px;
@@ -34,14 +36,15 @@ body {
     align-items: center;
 }
 
-.header ul #aqui{
-    font-weight: 1000;
-    color: white;
+a {
+    color: #e3b062;
+    text-decoration: none;
 }
 
+.header ul #aqui {
 
-a {color: #e3b062;
-    text-decoration: none;
+    color: white;
+    font-weight: 1000;
 }
 
 /*Banner*/
@@ -51,14 +54,14 @@ a {color: #e3b062;
     /* border: solid 3px pink; */
     color: white;
     padding: 40px 0;
-    height: 400px;
+    height: 440px;
     background-image: url(assets/imgs/bg-jelly-fish-para_outras_pags.png);
     background-size: cover;
 }
 
 .banner .container {
     /* border: solid 3px red; */
-    height: 400px;
+    height: 440px;
     display: flex;
     justify-content: center;
     align-items: center;
